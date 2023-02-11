@@ -1,0 +1,54 @@
+body {
+font-family: 'Rubik', sans-serif;
+}
+
+/* Defining health bar width's that bootstrap don't have */
+.w-10 {
+    width: 10% !important;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.w-60 {
+    width: 60% !important;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.images {
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+.island {
+    position: relative;
+    top: 0;
+    left: 25%;
+}
+.monster {
+    position: absolute;
+    top: 25px;
+    left: 42%;
+    z-index: 1;
+}
